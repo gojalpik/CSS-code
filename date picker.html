@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dp</title>
+	<script type="text/javascript">
+		function day(){
+			var d=new Date();
+			document.getElementById('a').innerHTML=d;
+            n=new Date()
+            n.setDate(n.getDate()-7)
+			document.getElementById('b').innerHTML=n;
+			v=new Date()
+            v.setDate(v.getDate()+7)
+
+			document.getElementById('c').innerHTML=v;
+
+		}
+	</script>
+</head>
+<body onload="day()">
+<p align="center">Today is </p>
+<div align="center"  id="a"></div>
+<p align="center">MeanStack Training started on </p>
+<div align="center" id="b"></div>
+<p align="center">College opens in </p>
+<div align="center" id="c"></div>
+</body>
+<style type="text/css">
+	div{
+		background-color: pink;
+		font-family: cursive;
+	}
+	p{
+		background-color: lightblue;
+	}
+</style>
+</html>
