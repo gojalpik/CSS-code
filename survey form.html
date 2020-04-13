@@ -1,0 +1,91 @@
+<html>
+<head>
+<title></title>
+
+<style>
+    
+h1{
+background-color: aqua;
+}
+option:hover{
+  border-color: yellow;
+  background-color: skyblue;
+  width: 200px;
+}
+button{
+  border: 2px green;
+}
+body{
+  background-color: pink;
+}
+</style>
+
+</head>
+<body>
+<h1>Survey Form</h1>
+<table  cellpadding = "10">
+<p>Please Fill the survey for the Code Chef Workshop Attended</p>
+<tr>
+<td>*Name</td>
+<td><input type="text" name="name" maxlength="50" placeholder="Enter your name" />
+</td>
+</tr>
+<tr>
+<td>*Email</td>
+<td><input type="email" name="email" maxlength="50" placeholder="Enter your Email"/>
+</td>
+</tr>
+<tr>
+<td>*Age</td>
+<td>
+<input type="text" name="age" maxlength="10" placeholder="18"/>
+</td>
+</tr>
+<tr>
+<td>which option best describe your current role?</td>
+<td>
+<select placeholder="Select an option">
+    <option value="student">student</option>
+    <option value="developer">developer</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>*How likely is that you would recommend Code Chef Workshop to a friend? <br /><br /><br /></td>
+<td>
+<input type="checkbox" name="" value="Definitely" />
+Definitely<br>
+<input type="checkbox" name="" value="Maybe" />
+Maybe
+<br />
+</td>
+</tr>
+<tr>
+<td>What do you like most in Code Chef Workshop:</td>
+<td>
+<select>
+     <option value="theory">Theory</option>
+  <option value="practical">Practical</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Things that should be improved in the future(Check all that apply):
+ <br /><br /><br /></td>
+<td>
+<input type="checkbox" name="" value="Definitely" />
+Front-end/Bacl-end projects<br>
+<input type="checkbox" name="" value="Maybe" />
+Data visualization
+<br />
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="button" style="background-color:yellow " value="SUBMIT">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
